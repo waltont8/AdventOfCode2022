@@ -14,3 +14,6 @@ listSplit p s = case dropWhile p s of
                 s' -> w : listSplit p s''
                   where (w, s'') = break p s'
 ```
+
+# Day 2: Rock Paper Scissors
+Yeah, I mean, sure, I could have done something with types or constants or ascii values, but I like the sound the keyboard makes when you quickly type in patterns like this.
