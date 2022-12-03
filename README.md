@@ -17,3 +17,6 @@ listSplit p s = case dropWhile p s of
 
 ## Day 2: Rock Paper Scissors
 Yeah, I mean, sure, I could have done something with types or constants or ascii values, but I like the sound the keyboard makes when you quickly type in patterns like this.
+
+## Day 3: Rucksack Reorganization
+Nothing too exciting going on yet. Just using Data.List intersect. Looks like the image is going to be a map, you can just see a river inlet starting to form at the bottom.
