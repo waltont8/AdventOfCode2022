@@ -3,11 +3,13 @@ module Lib
     ) where
 
 import Control.Arrow
+import Control.Monad
 import Data.List.Split
+
 
 advent :: IO ()
 advent = do
-        input <- fmap (lines >>> map parse >>> ((map score1 >>> sum) &&& (map score2 >>> sum))) $ readFile "input.txt"
+        input <- fmap (lines >>> map parse >>> (map score1 &&& map score2) >>> join (***) sum) $ readFile "input.txt"
         print input
 
 parse :: String -> ((Int,Int),(Int,Int))
