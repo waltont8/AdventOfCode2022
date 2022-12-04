@@ -20,3 +20,6 @@ Yeah, I mean, sure, I could have done something with types or constants or ascii
 
 ## Day 3: Rucksack Reorganization
 Nothing too exciting going on yet. Just using Data.List intersect. Looks like the image is going to be a map, you can just see a river inlet starting to form at the bottom.
+
+## Day 4: Camp Cleanup
+Similar to day 2, easier to just write it out long hand than do anything clever.
