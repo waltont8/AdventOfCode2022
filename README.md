@@ -23,3 +23,6 @@ Nothing too exciting going on yet. Just using Data.List intersect. Looks like th
 
 ## Day 4: Camp Cleanup
 Similar to day 2, easier to just write it out long hand than do anything clever.
+
+## Day 5: Supply Stacks
+Just some really hacky speed parsing and then follow the rules. This is one that felt really nasty in haskell. I've always said that some questions in AoC are better done in C++ than Haskell, but I had a realization. To do this quickly question, I needed to write some terrible single-use code, which haskell really pushes back on and C++ doesn't. A more robust solution to this with a real parser would be really nice to do in haskell. It's easier to write bad code in C++ than in Haskell.
