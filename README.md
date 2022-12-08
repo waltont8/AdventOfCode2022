@@ -30,4 +30,8 @@ Just some really hacky speed parsing and then follow the rules. This is one that
 ## Day 6: Tuning Trouble
 I'm glad this was easy. It's been quite a day.
 
+## Day 7: No Space Left On Device
+I was so tired today, far too tired to do this properly, so I did a quick C++ hack and called it a day.
 
+## Day 8: Day 8: Treetop Tree House
+Not super happy about having different visibility and counting functions, they're basically the same. I also thought about running the isVisible function over an array of direction functions which might have looked neater. Time is the fire in which we burn.
