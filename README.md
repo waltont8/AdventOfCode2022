@@ -35,3 +35,6 @@ I was so tired today, far too tired to do this properly, so I did a quick C++ ha
 
 ## Day 8: Day 8: Treetop Tree House
 Not super happy about having different visibility and counting functions, they're basically the same. I also thought about running the isVisible function over an array of direction functions which might have looked neater. Time is the fire in which we burn.
+
+## Day 9: Rope Bridge
+That took a while. I had to go back and retrofit arrays of tail knots into the code for part 2. I do like how you get Read for free if you make your data names match the text in the file.
