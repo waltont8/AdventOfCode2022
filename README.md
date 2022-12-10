@@ -38,3 +38,14 @@ Not super happy about having different visibility and counting functions, they'r
 
 ## Day 9: Rope Bridge
 That took a while. I had to go back and retrofit arrays of tail knots into the code for part 2. I do like how you get Read for free if you make your data names match the text in the file.
+
+## Day 10: Cathode-Ray Tube
+If the words in the input text all started with a capital letter then I could use derived Read directly and wouldn't need any parsing at all. My code would be a lot cleaner every year.
+```
+###  ###  ####  ##  ###   ##  ####  ##  
+#  # #  #    # #  # #  # #  #    # #  # 
+#  # ###    #  #    #  # #  #   #  #  # 
+###  #  #  #   # ## ###  ####  #   #### 
+#    #  # #    #  # # #  #  # #    #  # 
+#    ###  ####  ### #  # #  # #### #  # 
+```
