@@ -49,3 +49,6 @@ If the words in the input text all started with a capital letter then I could us
 #    #  # #    #  # # #  #  # #    #  # 
 #    ###  ####  ### #  # #  # #### #  # 
 ```
+
+## Day 11: Monkey in the Middle
+That was a very strange question. Didn't take too long to remember how megaparsec works. Took ages to debug. Part 2 was just a guess, I didn't base it on any reasoning. Seems to work...
